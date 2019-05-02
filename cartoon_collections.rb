@@ -5,6 +5,7 @@ def roll_call_dwarves(names)
     puts index dwarf
   end
 end
+roll_call_dwarves(dwarves)
 
 def summon_captain_planet# code an argument here
   # Your code here
