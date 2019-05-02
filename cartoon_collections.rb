@@ -31,7 +31,7 @@ soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if array.include?(cheese_types)
+  cheese_types.include?("cheddar")
     puts "yes"
   end
 end
