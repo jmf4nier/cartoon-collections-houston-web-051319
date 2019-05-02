@@ -32,7 +32,7 @@ num = [2,3,4,1,5]
 def find_the_cheese(array)
   #cheese_types = ["cheddar", "gouda", "camembert"]
   array.find do |object|
-    1
+    object == 1
   end
 end
 
