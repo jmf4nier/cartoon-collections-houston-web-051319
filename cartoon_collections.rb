@@ -28,11 +28,11 @@ end
 
 #soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 ingredients = ["garlic", "rosemary", "bread"]
-num = [2,3,4,1,5]
+
 def find_the_cheese(array)
-  #cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese_types = ["cheddar", "gouda", "camembert"]
   array.find do |object|
-    object == 1
+    object == cheese_types
   end
 end
 
