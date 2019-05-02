@@ -26,8 +26,8 @@ def long_planeteer_calls(array)
   end
 end
 
-soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
-
+#soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+ingredients = ["garlic", "rosemary", "bread"]
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.find do |cheese|
