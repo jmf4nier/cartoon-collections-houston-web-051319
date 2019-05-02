@@ -1,8 +1,8 @@
 
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 def roll_call_dwarves(names)
-  names.collect.with_index(1) do |index, dwarf|
-    puts dwarf
+  names.collect.with_index(1) do |dwarf|
+    dwarf
   end
 end
 roll_call_dwarves(dwarves)
